@@ -1,7 +1,7 @@
 class Solution:
     def minEatingSpeed(self, piles: List[int], h: int) -> int:
          # minimum for 5 will be size of piles, n
-        left, right = 0, max(piles)
+        left, right = 1, max(piles)
         res = max(piles)
 
         while left <= right:
